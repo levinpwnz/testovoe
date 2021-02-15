@@ -1,5 +1,5 @@
 ## This is test project and my link to git...
-## SPA application on laravel & vue.js
+## SPA application based on laravel & vue.js
 ## How to launch this project...
 
 composer install & composer update
