@@ -14,7 +14,8 @@ php artisan migrate
 
 php artisan storage:link
 
-//Configurate db credentials in .env file
+Configurate db credentials in .env file
+
 php artisan db:seed
 
 
