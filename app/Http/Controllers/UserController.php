@@ -41,7 +41,7 @@ class UserController
     public function update(User $user, UserRequest $request): JsonResponse
     {
         $user = tap($user)
-            ->update($request->all());
+            ->update($request->validated());
 
         return response()->json([
             'user' => $user,
